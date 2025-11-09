@@ -78,3 +78,35 @@ jupyter notebook notebooks/01_eda.ipynb
 ## ✅ Final Submission Tip
 Zip the important parts:
 zip -r YourName_CustomerBehaviourAnalysis.zip notebooks data/processed reports/slides README.md
+
+## 📊 Example Insights (from this dataset)
+- No customers under 18 → target adult demographics
+- High spenders exist across ages (~$90 avg)
+- Clothing & Footwear drive most revenue
+- Positive reviews correlate with higher spend
+- Repeat customers spend more (loyalty = profit)
+
+## 💼 Recommendations
+1) Focus marketing on adults (18–60)
+2) Build loyalty rewards for repeat buyers
+3) Encourage reviews after purchase
+4) Cross-sell within Clothing & Footwear
+
+## 🧾 Git Basics (Keep it up to date)
+
+# See changes
+git status
+
+# Stage all changes
+git add .
+
+# Commit with a message
+git commit -m "update: improved EDA visuals"
+
+# Push to GitHub
+git push
+
+# Pull latest from GitHub
+git pull
+
+
