@@ -1,0 +1,10 @@
+# Environment files
+.env
+*.env
+
+# macOS system files
+.DS_Store
+
+# Raw data
+data/raw/*
+!data/raw/.gitkeep
