@@ -29,3 +29,52 @@ customer_purchase_behaviour/
 ├─ .env.example
 ├─ requirements.txt
 └─ README.md
+
+
+## ⚙️ Requirements
+- Python 3.10+
+- Git
+- Jupyter Notebook
+
+### Python libraries
+pandas, numpy, matplotlib, seaborn, plotly, scikit-learn, python-dotenv
+
+## 🚀 How to Run (No Coding Needed)
+
+### 1) Clone this project
+git clone https://github.com/<your-username>/customer_purchase_behaviour.git
+cd customer_purchase_behaviour
+
+### 2) Create & activate a virtual environment
+python3 -m venv .venv
+source .venv/bin/activate   # macOS/Linux
+# .venv\Scripts\activate    # Windows (PowerShell)
+
+### 3) Install dependencies
+pip install -r requirements.txt
+
+### 4) Put the dataset in place
+- Download from Kaggle: https://www.kaggle.com/datasets/mubeenshehzadi/customer-purchase-behaviour
+- Save CSV to: data/raw/CustomerPurchaseBehavior.csv
+
+### 5) Configure environment (optional)
+cp .env.example .env
+# Edit .env if your filename differs
+# DATA_PATH=data/raw/CustomerPurchaseBehavior.csv
+# RANDOM_STATE=42
+
+### 6) Run the Notebook
+jupyter notebook notebooks/01_eda.ipynb
+# In Jupyter, go to: Cell → Run All
+
+
+## 📦 What You Get (Outputs)
+- Cleaned data: `data/processed/cleaned_customer_purchase.csv`
+- Segmented data: `data/processed/segmented_customer_data.csv`
+- Final dataset: `data/processed/final_customer_behaviour_dataset.csv`
+- Charts & insights: inside the notebook (and optional `reports/figures/`)
+- Slides: `reports/slides/YourName_CustomerBehaviourAnalysis.pptx`
+
+## ✅ Final Submission Tip
+Zip the important parts:
+zip -r YourName_CustomerBehaviourAnalysis.zip notebooks data/processed reports/slides README.md
