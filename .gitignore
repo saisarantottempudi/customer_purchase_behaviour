@@ -8,3 +8,4 @@
 # Raw data
 data/raw/*
 !data/raw/.gitkeep
+README.backup.*
