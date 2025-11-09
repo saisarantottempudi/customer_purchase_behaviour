@@ -16,4 +16,16 @@ This project helps a retail business understand **who buys what**, **how much th
 5) Insights & Business Recommendations  
 6) Outputs saved for submission
 
+## 📂 Folder Structure
 
+customer_purchase_behaviour/
+├─ data/
+│  ├─ raw/                # Original dataset from Kaggle
+│  └─ processed/          # Cleaned/segmented outputs
+├─ notebooks/
+│  └─ 01_eda.ipynb        # Main analysis notebook
+├─ scripts/
+│  └─ setup_venv.sh       # venv bootstrapper
+├─ .env.example
+├─ requirements.txt
+└─ README.md
